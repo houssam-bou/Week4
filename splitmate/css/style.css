@@ -1,0 +1,222 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 40px;
+    flex-wrap: wrap;
+}
+
+.logo img {
+    height: 30px;
+    width: auto;
+}
+
+button {
+    padding: 12px 20px;
+    font-size: 10px;
+    background-color: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.contenue {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.contenue h1 {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(6, 6, 107);
+}
+
+.contenue p {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(6, 6, 107);
+}
+
+.contenue2 {
+    display: block;
+}
+
+.contenue2 h1 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(6, 6, 107);
+    margin-left: 40px;
+}
+
+.contenue2 p {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(87, 87, 100);
+    margin-left: 40px;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.BRDR1 {
+    border-radius: 10px;
+    background-color: rgb(215, 225, 234);
+    height: 150px;
+    width: 250px;
+}
+
+.BRDR1 p {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(87, 87, 100);
+    margin-left: 10px;
+}
+
+.BRDR1 h6 {
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: rgb(6, 6, 107);
+}
+
+
+.BRDR2 {
+    border-radius: 10px;
+    background-color: rgb(215, 225, 234);
+    height: 150px;
+    width: 250px;
+}
+
+.BRDR2 p {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(87, 87, 100);
+    margin-left: 10px;
+}
+
+.BRDR2 h2 {
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: rgb(6, 6, 107);
+}
+
+.BRDR3 {
+    border-radius: 10px;
+    background-color: rgb(215, 225, 234);
+    height: 150px;
+    width: 250px;
+}
+
+.BRDR3 p {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(87, 87, 100);
+    margin-left: 10px;
+}
+
+.BRDR3 h2 {
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: rgb(6, 6, 107);
+}
+
+.BRDR4 {
+    border-radius: 10px;
+    background-color: rgb(215, 225, 234);
+    height: 150px;
+    width: 250px;
+}
+
+.BRDR4 p {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(87, 87, 100);
+    margin-left: 10px;
+}
+
+.BRDR4 h2 {
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: rgb(6, 6, 107);
+}
+
+.contenue3 {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: rgb(215, 225, 234);
+    height: 160px;
+    margin-top: 60px;
+}
+
+.step1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+   
+
+}
+
+.step1 h6 {
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(6, 6, 107);
+
+
+}
+
+.step1 p {
+    font-size: 13px;
+    margin-top: 5px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(87, 87, 100);
+}
+
+.step2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(180, 208, 231);
+    width: 1200px;
+    margin: auto;
+    margin-top: -10px;
+}
+
+.step2 h5 {
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 20px;
+    color: rgb(16, 16, 69);  
+}
+
+.step2 p {
+    font-family: Arial, Helvetica, sans-serif;  
+    margin-right: 20px;
+    color: green;
+    
+}
+
