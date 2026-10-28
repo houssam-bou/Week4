@@ -4,72 +4,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Splitmate</title>
+    <title>Dashboard</title>
     <link rel="stylesheet" href="/splitmate/css/style.css">
 </head>
 
 <body>
-<header>
-    <div>
-        <img class="logo" src="/splitmate/assets/logo splitmate.png" alt="logo Splitmate">
-        <p>SplitMate</p>
-    </div>
-    <div>
-        <button>+  Add Expense</button>
-    </div>
-</header>
-    <section>
+    <header>
         <div>
-            <h5>SplitMate</h5>
-            <p>Weekend in Taghazout</p>
+            <img class="logo" src="/splitmate/assets/logo splitmate.png" alt="logo Splitmate">
+            <p>SplitMate</p>
         </div>
-    </section>
-    <section>
         <div>
-            <h1>Weekend in Taghazout</h1>
-            <p>Good vibes, good food, better together!</p>
+            <nav>
+                <a href="/splitmate/index.html">Dashboard</a>
+                <a href="/splitmate/depenses.html">Depenses</a>
+                <a href="/splitmate/groupes.html">Groupes</a>
+                <a href="/splitmate/members.html">Members</a>
+                <a href="/splitmate/solde.html"></a>
+            </nav>
         </div>
-        <div class="hero-container">
+        <div>
+            <button>+ Add Expense</button>
+        </div>
+    </header>
+    <main>
+        <section>
             <div>
-                <p>Total Group Expenses</p>
-                <h2>5400 DH</h2>
+                
+                <p>Week-end à Taghazout</p>
             </div>
+        </section>
+        <section>
             <div>
-                <p>You Paid</p>
-                <h2>2200 DH</h2>
+                <h1>Week-end à Taghazout</h1>
+                <p>Bonne ambiance, bonne cuisine, et encore mieux ensemble !</p>
             </div>
-            <div>
-                <p>Net Balance</p>
-                <h2>+650 DH</h2>
+        </section>
+        <section>
+            <div class="hero-container">
+                <div>
+                    <p>Groupes</p>
+                    <h2>0</h2>
+                    <a href="/splitmate/groupes.html">voir les Groupes</a>
+                </div>
+                <div>
+                    <p>membres</p>
+                    <h2>0</h2>
+                    <a href="/splitmate/members.html">voir les membres</a>
+                </div>
+                <div>
+                    <p>total des depenses</p>
+                    <h2>0 DH</h2>
+                    <a href="/splitmate/depenses.html">voir les depenses</a>
+                </div>
+                <div>
+                    <p>remboursements</p>
+                    <h2>0</h2>
+                    <a href="/splitmate/solde.html">voir les soldes</a>
+                </div>
             </div>
-            <div>
-                <p>Active Members</p>
-                <h2>4 Members</h2>
+        </section>
+        <section>
+            <h2>Acces rapide</h2>
+            <div class="acces-rapide-container">
+                <nav>
+                    <div>
+                        <button id="button-groupes"><a href="/splitmate/groupes.html">Gerer les groupes</a></button>
+                        <button id="button-membres"><a href="/splitmate/members.html">Gerer les membres</a></button>
+                    </div>
+                    <div>
+                        <button id="button-depenses" ><a href="/splitmate/depenses.html">Gerer les depenses</a></button>
+                        <button id="button-consulter-solde" ><a href="/splitmate/solde.html">Consulter les soldes</a></button>
+                    </div>
+                </nav>
             </div>
-        </div>
-    </section>
-    <section>
-        <div>
-            <h4>Who owes whom?</h4>
-            <p>Balances and who should pay who.</p>
-        </div>
-        <div>
-            <p>karim</p>
-            <p>650 DH</p>
-        </div>
-    </section>
-    <section>
-        <div>
-            <h4>Recent expenses</h4>
-            <button> View all</button>
-        </div>
-        <div>
-            <p>Dinner</p>
-            <p>apr 26, 2025</p>
-            <p>650 DH</p>
-        </div>
-    </section>
-
+        </section>
+    </main>
 
     <script type="module" src="./js/main.js"></script>
 </body>
