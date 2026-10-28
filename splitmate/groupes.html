@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>groupes</title>
+    <link rel="stylesheet" href="/splitmate/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <img class="logo" src="/splitmate/assets/logo splitmate.png" alt="logo Splitmate">
+            <p>SplitMate</p>
+        </div>
+        <div>
+            <nav>
+                <a href="/splitmate/index.html">Dashboard</a>
+                <a href="/splitmate/depenses.html">Depenses</a>
+                <a href="/splitmate/groupes.html">Groupes</a>
+                <a href="/splitmate/members.html">Members</a>
+                <a href="/splitmate/solde.html">Soldes</a>
+            </nav>
+        </div>
+        <div>
+            <button><a href="/splitmate/depenses.html">+ Add Expense</a></button>
+        </div>
+    </header>
+
+    <body>
+        <main>
+            <div>
+                <h1 class="crer-un-groupe">Créer un groupe</h1>
+            </div>
+            <section>
+                <form id="groupes-form">
+                    <div>
+                        <label for="nom-du-groupe">Nom du groupe</label>
+                        <input type="text" id="groupe-name">
+                        <br>
+                        <label for="description-groupe">Description</label>
+                        <input type="text" id="groupe-description">
+                        <br>
+                        <label for="devise-select-groupe">Devise</label>
+                        <select name="devise" id="devise-select">
+                            <option value="mad">MAD</option>
+                            <option value="eur">EUR</option>
+                            <option value="usd">USD</option>
+                        </select>
+                        <br>
+                        <label>
+                            Date
+                            <input id="date-groupes" type="date" name="date" min="1990-01-01" max="2017-01-01" />
+                        </label>
+                        <br>
+                        <button id="cancel-button">Annuler</button>
+                        <button id="add-expense">Créer</button>
+                    </div>
+                </form>
+            </section>
+            <section>
+                <div id="groupes-container">
+
+                </div>
+            </section>
+        </main>
+    </body>
