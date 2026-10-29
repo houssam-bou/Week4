@@ -5,22 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>depenses</title>
-    <link rel="stylesheet" href="/splitmate/css/style.css">
+   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header>
-        <div>
-            <img class="logo" src="/splitmate/assets/logo splitmate.png" alt="logo Splitmate">
-            <p>SplitMate</p>
+    <header class="header">
+        <div class="photo">
+            <img src="assets/image.png">
         </div>
-        <div>
+        <div class="navi">
             <nav>
-                <a href="/splitmate/index.html">Dashboard</a>
-                <a href="/splitmate/depenses.html">Depenses</a>
-                <a href="/splitmate/groupes.html">Groupes</a>
-                <a href="/splitmate/members.html">Members</a>
-                <a href="/splitmate/solde.html">Soldes</a>
+                <ul>
+                    <li><a href="/splitmate/index.html">Dashboard</a></li>
+                    <li><a href="/splitmate/depenses.html">Depenses</a></li>
+                    <li><a href="/splitmate/groupes.html">Groupes</a></li>
+                    <li><a href="/splitmate/members.html">Members</a></li>
+                    <li><a href="/splitmate/solde.html"></a></li>
+                </ul>
             </nav>
         </div>
         <div>
@@ -29,11 +30,12 @@
     </header>
     <main>
 
-        <section>
+        <section class="contenue">
             <form id="expense-form">
                 <div>
+                    <div class="partie1">
                     <label for="expense-title">Expense Title</label>
-                    <input type="text" id="expense-title">
+                    <input type="text" id="expense-title"></div>
                     <br>
                     <label for="amount">amount</label>
                     <input type="number"name="number" id="Number">
